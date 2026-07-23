@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["bookshop-repository-production.up.railway.app"]
 
+CSRF_TRUSTED_ORIGINS=["https://bookshop-repository-production.up.railway.app/books/add_book"]
 
 # Application definition
 
