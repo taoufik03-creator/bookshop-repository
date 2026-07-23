@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-s4&((j3s)u1709cwwo(2+%9pwlpo-y8k@)+yq_8(k-^hld+g4*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["bookshop-repository-production.up.railway.app"]
 
 
 # Application definition
