@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Here are our books : </h2>
+    {% for book in object_list %}
+    <a href="{{book.get_absolute_url}}">{{book.title}}</a><br>
+    {% endfor %}<br><br><br>
+    Want to create a book : <a href="add_book">Create new book</a>
+</body>
+</html>

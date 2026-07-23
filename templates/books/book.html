@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{book.title}}</h1>
+    <hr>
+    <dl>
+        <dt><b>-Description : </b></dt>
+        <dd>{{book.description}}</dd><br>
+        <dt><b>-Release date : </b></dt>
+        <dd>{{book.release_date}}</dd><br>
+        <dt><b>-Price : </b></dt>
+        <dd>{{book.price}} MAD</dd><br>
+    </dl><br><br><br>
+    Update this book here : <a href="{{book.get_absolute_url}}update">update</a>
+</body>
+</html>
